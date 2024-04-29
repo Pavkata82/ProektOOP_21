@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+}
+header a {
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  border: solid white;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  text-align: center;
+}
+#register-form {
+  width: 50%;
+  height: 30vh;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#register-form input {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+}
+#register-submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#register-submit-btn:hover {
+  background-color: white;
+  color: black;
+}
+#login-form {
+  width: 50%;
+  height: 30vh;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#login-form input {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px;
+}
+#login-submit-btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#login-submit-btn:hover {
+  background-color: white;
+  color: black;
+}
